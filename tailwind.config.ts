@@ -58,6 +58,19 @@ export default {
           ring: "hsl(var(--sidebar-ring))",
         },
       },
+      backgroundImage: {
+        'patriotic-gradient': 'var(--patriotic-gradient)',
+        'hero-gradient': 'var(--hero-gradient)',
+        'success-gradient': 'var(--success-gradient)',
+      },
+      boxShadow: {
+        'patriotic': 'var(--shadow-patriotic)',
+        'success': 'var(--shadow-success)',
+        'hero': 'var(--shadow-hero)',
+      },
+      transitionTimingFunction: {
+        'smooth': 'var(--transition-smooth)',
+      },
       borderRadius: {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",
