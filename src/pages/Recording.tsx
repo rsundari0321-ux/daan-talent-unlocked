@@ -84,9 +84,9 @@ export default function Recording() {
             if (angleDeg > 180) angleDeg = 360 - angleDeg;
             setDebugAngle(angleDeg);
 
-            if (angleDeg < 100 && stateRef.current === 'up') {
+            if (angleDeg < 155 && stateRef.current === 'up') {
               stateRef.current = 'down';
-            } else if (angleDeg > 150 && stateRef.current === 'down') {
+            } else if (angleDeg > 165 && stateRef.current === 'down') {
               stateRef.current = 'up';
               setRepCount((prev) => prev + 1);
             }
